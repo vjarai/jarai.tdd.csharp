@@ -10,15 +10,8 @@
       <Field Name="_motor" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="jarai.tdd3.TestDoubles.Cabrio">
-    <Position X="0.75" Y="3.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Cabrio.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="jarai.tdd3.TestDoubles.MotorStub">
-    <Position X="3" Y="2.75" Width="2" />
+    <Position X="3.75" Y="3" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAA=</HashCode>
       <FileName>MotorStub.cs</FileName>
@@ -26,7 +19,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="jarai.tdd3.TestDoubles.Motor">
-    <Position X="7.25" Y="0.5" Width="2" />
+    <Position X="7" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAA=</HashCode>
       <FileName>Motor.cs</FileName>
@@ -34,7 +27,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="jarai.tdd3.TestDoubles.MotorMock">
-    <Position X="8" Y="2.75" Width="3" />
+    <Position X="9.25" Y="3" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAABCA=</HashCode>
       <FileName>MotorMock.cs</FileName>
@@ -42,7 +35,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="jarai.tdd3.TestDoubles.MotorSpy">
-    <Position X="5.25" Y="2.75" Width="2.5" />
+    <Position X="6.25" Y="3" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAABAA=</HashCode>
       <FileName>MotorSpy.cs</FileName>

@@ -1,12 +1,12 @@
 ﻿using Moq;
 using Xunit;
 
-namespace jarai.tdd10.Adapter.Tests;
+namespace jarai.tdd4b.Adapter.Tests;
 
 public class UsbChargerToAppleChagerAdapterTests
 {
     [Fact]
-    public void GivenUsbChargerAdapter_WhenChargeIsCalled_ThenLiefereStromViaUsbIsCalledOnce()
+    public void GivenUsbChargerAdapter_WhenIphoneIsCharged_ThenLiefereStromViaUsbIsCalled()
     {
         // Arrange
         var iphone = new ApplePhone();
@@ -16,7 +16,6 @@ public class UsbChargerToAppleChagerAdapterTests
 
         // Act
         iphone.Charge(adapter);
-        // int strom = adapter.LiefereStromViaLightning();
 
         // Assert
         usbChargerMock.Verify(charger => charger.LiefereStromViaUsb(), Times.Once);

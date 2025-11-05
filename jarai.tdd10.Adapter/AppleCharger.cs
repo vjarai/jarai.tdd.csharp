@@ -1,4 +1,4 @@
-﻿namespace jarai.tdd10.Adapter;
+﻿namespace jarai.tdd4b.Adapter;
 
 public class AppleCharger
 {
