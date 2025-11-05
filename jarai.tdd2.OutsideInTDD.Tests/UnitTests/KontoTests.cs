@@ -2,11 +2,10 @@
 
 namespace jarai.tdd2.OutsideInTDD.Tests.UnitTests;
 
-
 public class KontoTests
 {
     [Fact]
-    public void EinzahlenTest()
+    public void GivenKonto_WhenEinzahlenIsCalled_ThenBalanceIsIncreased()
     {
         // Arrange
         var target = new Konto(new FakeKalenderService());
@@ -16,7 +15,7 @@ public class KontoTests
     }
 
     [Fact]
-    public void AbhebenTest()
+    public void GivenKonto_WhenAbhebenIsCalled_ThenBalanceIsDecreased()
     {
         // Arrange
         var target = new Konto(new FakeKalenderService());

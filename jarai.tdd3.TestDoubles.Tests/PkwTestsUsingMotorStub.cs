@@ -5,7 +5,7 @@ namespace jarai.tdd3.TestDoubles.Tests;
 public class PkwTestsUsingMotorStub
 {
     [Fact]
-    public void Fahren_erhoeht_Tachostand()
+    public void GivenPkwWithMotorStub_WhenFahrenIsCalled_ThenTachostandIsIncreased()
     {
         // Arrange
         var motorStub = new MotorStub();

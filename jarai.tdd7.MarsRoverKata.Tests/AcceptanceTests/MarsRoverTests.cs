@@ -5,7 +5,7 @@ namespace jarai.tdd7.MarsRoverKata.Tests.AcceptanceTests;
 public class MarsRoverTests
 {
     [Fact]
-    public void ExecuteCommands_M_should_0_1_N()
+    public void GivenMarsRover_WhenExecuteCommandsM_ThenPositionIs_0_1_N()
     {
         // Arrange
         var target = new MarsRover();
@@ -14,13 +14,11 @@ public class MarsRoverTests
         string actual = target.ExecuteCommands("M");
 
         // Assert
-
         Assert.Equal("0:1:N", actual);
     }
 
-
     [Fact]
-    public void ExecuteCommands_MMMMMMMMMM_should_0_0_N()
+    public void GivenMarsRover_WhenExecuteCommandsMMMMMMMMMM_ThenPositionIs_0_0_N()
     {
         // Arrange
         var target = new MarsRover();
@@ -33,7 +31,7 @@ public class MarsRoverTests
     }
 
     [Fact]
-    public void ExecuteCommands_MMRMMLM_should_2_3_N()
+    public void GivenMarsRover_WhenExecuteCommandsMMRMMLM_ThenPositionIs_2_3_N()
     {
         // Arrange
         var target = new MarsRover();
@@ -46,7 +44,7 @@ public class MarsRoverTests
     }
 
     [Fact]
-    public void ExecuteCommands_MMMM_with_Obstacle_0_3_should_O_0_2_N()
+    public void GivenMarsRoverWithObstacleAt_0_3_WhenExecuteCommandsMMMM_ThenPositionIs_O_0_2_N()
     {
         // Arrange
         var grid = new Grid();

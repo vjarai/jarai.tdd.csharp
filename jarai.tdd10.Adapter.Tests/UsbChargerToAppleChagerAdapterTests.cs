@@ -6,7 +6,7 @@ namespace jarai.tdd10.Adapter.Tests;
 public class UsbChargerToAppleChagerAdapterTests
 {
     [Fact]
-    public void LiefereStromViaLightningTest()
+    public void GivenUsbChargerAdapter_WhenChargeIsCalled_ThenLiefereStromViaUsbIsCalledOnce()
     {
         // Arrange
         var iphone = new ApplePhone();

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="jarai.tdd0.Refresher.Pkw">
-    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Position X="3.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
       <FileName>Pkw.cs</FileName>
@@ -18,7 +18,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="jarai.tdd0.Refresher.Cabrio">
-    <Position X="3.25" Y="2.75" Width="1.75" />
+    <Position X="3.25" Y="2.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAQAAAAAAAA=</HashCode>
       <FileName>Cabrio.cs</FileName>

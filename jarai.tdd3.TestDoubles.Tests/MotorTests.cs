@@ -5,7 +5,7 @@ namespace jarai.tdd3.TestDoubles.Tests;
 public class MotorTests
 {
     [Fact]
-    public void AnlassenTest()
+    public void GivenMotor_WhenAnlassenIsCalled_ThenDrehzahlIsGreaterThanZero()
     {
         // Arrange
         var target = new Motor();
@@ -18,7 +18,7 @@ public class MotorTests
     }
 
     [Fact]
-    public void AbstellenTest()
+    public void GivenMotor_WhenAbstellenIsCalled_ThenDrehzahlIsZero()
     {
         // Arrange
         var target = new Motor();

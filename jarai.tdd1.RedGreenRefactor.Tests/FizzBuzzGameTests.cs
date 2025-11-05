@@ -5,7 +5,7 @@ namespace jarai.tdd1.RedGreenRefactor.Tests;
 public class FizzBuzzGameTests
 {
     [Fact]
-    public void GetResponse_when_1_then_1()
+    public void GivenNumberIs1_WhenGetResponse_ThenReturns1()
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -18,7 +18,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void GetResponse_when_3_then_Fizz()
+    public void GivenNumberIs3_WhenGetResponse_ThenReturnsFizz()
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -31,7 +31,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void GetResponse_when_5_then_Buzz()
+    public void GivenNumberIs5_WhenGetResponse_ThenReturnsBuzz()
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -44,7 +44,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void GetResponse_when_15_then_FizzBuzz()
+    public void GivenNumberIs15_WhenGetResponse_ThenReturnsFizzBuzz()
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -59,7 +59,7 @@ public class FizzBuzzGameTests
     [Theory]
     [InlineData(0)]
     [InlineData(101)]
-    public void GetResponse_when_less_then_1_or_bigger_then_100_throws_ArgumentOutOfRangeException(int input)
+    public void GivenNumberIsOutOfRange_WhenGetResponse_ThenThrowsArgumentOutOfRangeException(int input)
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -76,7 +76,7 @@ public class FizzBuzzGameTests
     [InlineData(3, "Fizz")]
     [InlineData(5, "Buzz")]
     [InlineData(15, "FizzBuzz")]
-    public void GetResponse(int input, object expected)
+    public void GivenNumber_WhenGetResponse_ThenReturnsExpectedResult(int input, object expected)
     {
         // Arrange
         var game = new FizzBuzzGame();

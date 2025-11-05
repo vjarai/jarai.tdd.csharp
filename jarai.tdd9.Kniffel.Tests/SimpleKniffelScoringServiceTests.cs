@@ -9,7 +9,7 @@ namespace jarai.tdd9.Kniffel.Tests;
 public class SimpleKniffelScoringServiceTests
 {
     [Fact]
-    public void CalculateScorings_when_25345_shouldReturn_KleineStrasse_First()
+    public void GivenWurf25345_WhenCalculateScorings_ThenSmallStraightIsFirstWithScore30()
     {
         // Arrange
         var wurf = new Wurf(2, 5, 3, 4, 5);
@@ -37,9 +37,8 @@ public class SimpleKniffelScoringServiceTests
         Assert.Equal(expected, actual);
     }
 
-
     [Fact]
-    public void CalculateScorings_when_12345_shouldReturn_LargeStraight_and_SmallStraight_as_Top_2()
+    public void GivenWurf12345_WhenCalculateScorings_ThenLargeAndSmallStraightAreTop2()
     {
         // Arrange
         var wurf = new Wurf(1, 2, 3, 4, 5);
@@ -55,9 +54,8 @@ public class SimpleKniffelScoringServiceTests
         );
     }
 
-
     [Fact]
-    public void CalculateScorings_calls_Rule_CalculateScore()
+    public void GivenKniffelScoringServiceWithMockedRule_WhenCalculateScorings_ThenRuleCalculateScoreIsCalled()
     {
         // https://github.com/devlooped/moq/wiki/Quickstart
 

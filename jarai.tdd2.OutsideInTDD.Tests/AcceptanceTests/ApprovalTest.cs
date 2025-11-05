@@ -6,7 +6,7 @@ namespace jarai.tdd2.OutsideInTDD.Tests.AcceptanceTests;
 public class ApprovalTest
 {
     [Fact]
-    public void KontoauszugTest()
+    public void GivenKontoWithTransactions_WhenErstelleKontoauszug_ThenOutputIsApproved()
     {
         // Arrange
         var target = new Konto(new FakeKalenderService());
