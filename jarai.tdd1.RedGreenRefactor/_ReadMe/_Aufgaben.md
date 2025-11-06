@@ -1,5 +1,13 @@
 ﻿# Test Driven Design
 
+## => Tests sind "FIRST"
+
+- Fast
+- Independent
+- Repeatable
+- Simple
+- Timely (zuerst!)
+
 ## TDD usually follows the "Red-Green-Refactor" cycle:
 
 - Add a test to the test suite
