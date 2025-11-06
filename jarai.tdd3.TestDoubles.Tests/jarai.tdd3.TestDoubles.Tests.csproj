@@ -10,6 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="_ReadMe\**" />
+    <EmbeddedResource Remove="_ReadMe\**" />
+    <None Remove="_ReadMe\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="Moq" Version="4.20.69" />
     <PackageReference Include="coverlet.collector" Version="3.2.0" />
@@ -19,10 +25,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\jarai.tdd3.TestDoubles\jarai.tdd3.TestDoubles.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="_ReadMe\" />
   </ItemGroup>
 
 </Project>
