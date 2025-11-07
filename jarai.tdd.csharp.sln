@@ -45,6 +45,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jarai.tdd4b.Adapter", "jara
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jarai.tdd4b.Adapter.Tests", "jarai.tdd10.Adapter.Tests\jarai.tdd4b.Adapter.Tests.csproj", "{650359BD-019E-44F9-B716-C52C2CBED539}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jarai.tdd4c.Alexa", "jarai.tdd4.Alexa\jarai.tdd4c.Alexa.csproj", "{579C41C0-ABEB-F1FF-1550-F98E6827D4FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jarai.tdd4c.Alexa.Tests", "jarai.tdd4c.Alexa.Tests\jarai.tdd4c.Alexa.Tests.csproj", "{D32C9E51-9EF1-4824-9DE9-65D84D1E3CE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{650359BD-019E-44F9-B716-C52C2CBED539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{650359BD-019E-44F9-B716-C52C2CBED539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{650359BD-019E-44F9-B716-C52C2CBED539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579C41C0-ABEB-F1FF-1550-F98E6827D4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579C41C0-ABEB-F1FF-1550-F98E6827D4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579C41C0-ABEB-F1FF-1550-F98E6827D4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579C41C0-ABEB-F1FF-1550-F98E6827D4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32C9E51-9EF1-4824-9DE9-65D84D1E3CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32C9E51-9EF1-4824-9DE9-65D84D1E3CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32C9E51-9EF1-4824-9DE9-65D84D1E3CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32C9E51-9EF1-4824-9DE9-65D84D1E3CE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
