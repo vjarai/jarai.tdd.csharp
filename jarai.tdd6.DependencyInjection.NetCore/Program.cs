@@ -32,7 +32,7 @@ internal class Program
         hostBuilder.ConfigureServices((_, services) =>
         {
             // Registrierung aller Abhängigkeiten
-            services.AddSingleton<ViewModel>(); // Singleton => Eine einzige Instanz für Alle
+            services.AddSingleton<IViewModel, ViewModel>(); // Singleton => Eine einzige Instanz für Alle
             services.AddSingleton<Lagerverwaltung>();
             services.AddSingleton<Buchhaltung>();
             services.AddSingleton<UserInterface>();

@@ -22,6 +22,7 @@ internal class Program
         var container = new SimpleIocContainer();
 
         container.Register<ILogger, ConsoleLogger>();
+        container.Register<IViewModel, ViewModel>( LifeCycle.Transient );
 
         // Composition Root Object via IoC erstellen, => Alle Abhängigkeiten ("HAT EIN") werden automatisch aufgelöst
         var app = container.Resolve<Applikation>();

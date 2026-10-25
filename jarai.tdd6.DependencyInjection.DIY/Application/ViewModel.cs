@@ -1,6 +1,12 @@
 ﻿namespace jarai.tdd6.DependencyInjection.DIY.Application;
 
-public class ViewModel
+public interface IViewModel
+{
+    Buchhaltung Buchhaltung { get; set; }
+    Lagerverwaltung Lagerverwaltung { get; set; }
+}
+
+public class ViewModel : IViewModel
 {
     public ViewModel(Lagerverwaltung lagerverwaltung, Buchhaltung buchhaltung)
     {

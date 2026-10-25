@@ -2,10 +2,10 @@
 
 public class UserInterface
 {
-    public UserInterface(ViewModel viewModel)
+    public UserInterface(IViewModel viewModel)
     {
         ViewModel = viewModel;
     }
 
-    public ViewModel ViewModel { get; set; }
+    public IViewModel ViewModel { get; set; }
 }

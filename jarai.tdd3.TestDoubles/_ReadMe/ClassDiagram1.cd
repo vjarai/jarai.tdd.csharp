@@ -11,7 +11,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="jarai.tdd3.TestDoubles.MotorStub">
-    <Position X="3.75" Y="3" Width="2" />
+    <Position X="3" Y="3" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAA=</HashCode>
       <FileName>MotorStub.cs</FileName>

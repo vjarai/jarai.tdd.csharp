@@ -68,6 +68,7 @@ public class MarsRover
     internal string TurnLeft()
     {
         _currentDirection = _currentDirection.TurnLeft();
+
         return _currentDirection.ToString();
     }
 
