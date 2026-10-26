@@ -1,4 +1,4 @@
-﻿namespace jarai.tdd2.OutsideInTDD;
+﻿namespace jarai.tdd2.OutsideInTDD.Tests;
 
 public class FakeKalenderService : IKalenderService
 {

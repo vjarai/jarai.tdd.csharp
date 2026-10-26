@@ -1,4 +1,4 @@
-﻿namespace jarai.tdd3.TestDoubles;
+﻿namespace jarai.tdd3.TestDoubles.Tests;
 
 /// <summary>
 ///     Ein Spy ermöglicht das Beobachten eines internen Verhaltens 

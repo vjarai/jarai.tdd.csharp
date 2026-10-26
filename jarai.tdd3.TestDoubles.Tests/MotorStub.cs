@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace jarai.tdd3.TestDoubles;
+namespace jarai.tdd3.TestDoubles.Tests;
 
 /// <summary>
 ///     Ein Stub kann Daten für einen Test liefern, aber diesen nicht "rot" machen
