@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.7.34024.191
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12324.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jarai.tdd3.TestDoubles", "jarai.tdd3.TestDoubles\jarai.tdd3.TestDoubles.csproj", "{0C6009B7-9925-47DB-877E-4768F0AA3E29}"
 EndProject

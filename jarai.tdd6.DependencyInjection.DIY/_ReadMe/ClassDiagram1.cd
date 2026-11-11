@@ -26,7 +26,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="jarai.tdd6.DependencyInjection.DIY.Application.Buchhaltung">
-    <Position X="13.75" Y="1" Width="1.5" />
+    <Position X="13.75" Y="1" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
       <FileName>Application\Buchhaltung.cs</FileName>
@@ -47,7 +47,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="jarai.tdd6.DependencyInjection.DIY.Application.KontoFactory">
-    <Position X="17.25" Y="1" Width="1.5" />
+    <Position X="18.25" Y="1" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Application\KontoFactory.cs</FileName>

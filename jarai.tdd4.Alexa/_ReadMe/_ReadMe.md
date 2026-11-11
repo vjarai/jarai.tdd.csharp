@@ -1,9 +1,13 @@
-# Chain of Responsibility
 
-The Chain of Responsibility pattern avoids coupling the sender of a request to its receiver
-and gives more than one object a chance to handle the request.
-This pattern chains the receiving objects and passes the request along the chain until an object handles it.
 
-Frequency of use: medium-low
+## Alexa skills
 
-![image](./chain-of-responsibility.jpg)
+Alexa can handle different requests.
+
+Implement Alexa using SOLID conform design principles. 
+
+| Keyword  | Output |
+|---|---|
+| `licht` | `Licht ist ein` |
+| `radio` | `Ich spiele den Radiosender 'HR3'.` |
+| `wetter` | `Morgen, am {dd.MM.yy} scheint die Sonne.` |
