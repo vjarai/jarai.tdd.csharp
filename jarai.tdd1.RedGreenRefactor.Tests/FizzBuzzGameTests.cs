@@ -5,7 +5,7 @@ namespace jarai.tdd1.RedGreenRefactor.Tests;
 public class FizzBuzzGameTests
 {
     [Fact]
-    public void GivenInputIs1_WhenGetResponse_ThenReturnsNumber1()
+    public void Given_InputIs1_When_GetResponse_Then_ReturnsNumber1()
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -18,7 +18,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void GivenInputIsDivisibleBy3Only_WhenGetResponse_ThenReturnsFizz()
+    public void Given_InputIsDivisibleBy3Only_When_GetResponse_Then_ReturnsFizz()
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -31,7 +31,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void GivenInputIsDivisibleBy5Only_WhenGetResponse_ThenReturnsBuzz()
+    public void Given_InputIsDivisibleBy5Only_When_GetResponse_Then_ReturnsBuzz()
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -44,7 +44,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void GivenInputIsDivisibleBy3And5_WhenGetResponse_ThenReturnsFizzBuzz()
+    public void Given_InputIsDivisibleBy3And5_When_GetResponse_Then_ReturnsFizzBuzz()
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -59,7 +59,7 @@ public class FizzBuzzGameTests
     [Theory]
     [InlineData(0)]
     [InlineData(101)]
-    public void GivenInputIsOutsideRange1To100_WhenGetResponse_ThenThrowsArgumentOutOfRangeException(int input)
+    public void Given_InputIsOutsideRange1To100_When_GetResponse_Then_ThrowsArgumentOutOfRangeException(int input)
     {
         // Arrange
         var game = new FizzBuzzGame();
@@ -76,7 +76,7 @@ public class FizzBuzzGameTests
     [InlineData(3, "Fizz")]
     [InlineData(5, "Buzz")]
     [InlineData(15, "FizzBuzz")]
-    public void GivenValidInputCases_WhenGetResponse_ThenReturnsExpectedValue(int input, object expected)
+    public void Given_ValidInputCases_When_GetResponse_Then_ReturnsExpectedValue(int input, object expected)
     {
         // Arrange
         var game = new FizzBuzzGame();
