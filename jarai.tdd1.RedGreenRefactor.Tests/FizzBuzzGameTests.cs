@@ -5,7 +5,7 @@ namespace jarai.tdd1.RedGreenRefactor.Tests;
 public class FizzBuzzGameTests
 {
     [Fact]
-    public void GivenFizzBuzzGame_whenInputIs1_ThenGetResponseReturnsNumber1()
+    public void GivenFizzBuzzGame_whenGetResponse1_ThenReturnsNumber1()
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -18,7 +18,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void GivenFizzBuzzGame_whenInputIs3_ThenGetResponseReturnsFizz()
+    public void GivenFizzBuzzGame_whenGetResponse3_ThenReturnsFizz()
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -31,7 +31,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void GivenFizzBuzzGame_whenInputIs5_ThenGetResponseReturnsBuzz()
+    public void GivenFizzBuzzGame_whenGetResponse5_ThenReturnsBuzz()
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -44,7 +44,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void GivenFizzBuzzGame_whenInputIs15_ThenGetResponseReturnsFizzBuzz()
+    public void GivenFizzBuzzGame_whenGetResponse15_ThenReturnsFizzBuzz()
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -59,7 +59,7 @@ public class FizzBuzzGameTests
     [Theory]
     [InlineData(0)]
     [InlineData(101)]
-    public void GivenFizzBuzzGame_whenInputIsOutsideRange1To100_ThenGetResponseThrowsArgumentOutOfRangeException(int input)
+    public void GivenFizzBuzzGame_whenGetResponseReceivesInputOutsideRange1To100_ThenThrowsArgumentOutOfRangeException(int input)
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -76,7 +76,7 @@ public class FizzBuzzGameTests
     [InlineData(3, "Fizz")]
     [InlineData(5, "Buzz")]
     [InlineData(15, "FizzBuzz")]
-    public void GivenFizzBuzzGame_whenInputIsValid_ThenGetResponseReturnsExpectedValue(int input, object expected)
+    public void GivenFizzBuzzGame_whenGetResponseReceivesValidInput_ThenReturnsExpectedValue(int input, object expected)
     {
         // Arrange
         var sut = new FizzBuzzGame();
