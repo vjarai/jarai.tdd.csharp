@@ -8,10 +8,10 @@ public class FizzBuzzGameTests
     public void Given_InputIs1_When_GetResponse_Then_ReturnsNumber1()
     {
         // Arrange
-        var game = new FizzBuzzGame();
+        var sut = new FizzBuzzGame();
 
         // Act
-        object actual = game.GetResponse(1);
+        object actual = sut.GetResponse(1);
 
         // Assert
         Assert.Equal(1, actual);
@@ -21,10 +21,10 @@ public class FizzBuzzGameTests
     public void Given_InputIsDivisibleBy3Only_When_GetResponse_Then_ReturnsFizz()
     {
         // Arrange
-        var game = new FizzBuzzGame();
+        var sut = new FizzBuzzGame();
 
         // Act
-        object actual = game.GetResponse(3);
+        object actual = sut.GetResponse(3);
 
         // Assert
         Assert.Equal("Fizz", actual);
@@ -34,10 +34,10 @@ public class FizzBuzzGameTests
     public void Given_InputIsDivisibleBy5Only_When_GetResponse_Then_ReturnsBuzz()
     {
         // Arrange
-        var game = new FizzBuzzGame();
+        var sut = new FizzBuzzGame();
 
         // Act
-        object actual = game.GetResponse(5);
+        object actual = sut.GetResponse(5);
 
         // Assert
         Assert.Equal("Buzz", actual);
@@ -47,10 +47,10 @@ public class FizzBuzzGameTests
     public void Given_InputIsDivisibleBy3And5_When_GetResponse_Then_ReturnsFizzBuzz()
     {
         // Arrange
-        var game = new FizzBuzzGame();
+        var sut = new FizzBuzzGame();
 
         // Act
-        object actual = game.GetResponse(15);
+        object actual = sut.GetResponse(15);
 
         // Assert
         Assert.Equal("FizzBuzz", actual);
@@ -62,10 +62,10 @@ public class FizzBuzzGameTests
     public void Given_InputIsOutsideRange1To100_When_GetResponse_Then_ThrowsArgumentOutOfRangeException(int input)
     {
         // Arrange
-        var game = new FizzBuzzGame();
+        var sut = new FizzBuzzGame();
 
         // Act
-        Assert.Throws<ArgumentOutOfRangeException>(() => game.GetResponse(input));
+        Assert.Throws<ArgumentOutOfRangeException>(() => sut.GetResponse(input));
     }
 
     /// <summary>
@@ -79,10 +79,10 @@ public class FizzBuzzGameTests
     public void Given_ValidInputCases_When_GetResponse_Then_ReturnsExpectedValue(int input, object expected)
     {
         // Arrange
-        var game = new FizzBuzzGame();
+        var sut = new FizzBuzzGame();
 
         // Act
-        object actual = game.GetResponse(input);
+        object actual = sut.GetResponse(input);
 
         // Assert
         Assert.Equal(expected, actual);
