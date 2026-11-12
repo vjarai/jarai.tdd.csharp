@@ -5,7 +5,7 @@ namespace jarai.tdd1.RedGreenRefactor.Tests;
 public class FizzBuzzGameTests
 {
     [Fact]
-    public void Given_InputIs1_When_GetResponse_Then_ReturnsNumber1()
+    public void GivenFizzBuzzGame_whenInputIs1_ThenGetResponseReturnsNumber1()
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -18,7 +18,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void Given_InputIsDivisibleBy3Only_When_GetResponse_Then_ReturnsFizz()
+    public void GivenFizzBuzzGame_whenInputIs3_ThenGetResponseReturnsFizz()
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -31,7 +31,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void Given_InputIsDivisibleBy5Only_When_GetResponse_Then_ReturnsBuzz()
+    public void GivenFizzBuzzGame_whenInputIs5_ThenGetResponseReturnsBuzz()
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -44,7 +44,7 @@ public class FizzBuzzGameTests
     }
 
     [Fact]
-    public void Given_InputIsDivisibleBy3And5_When_GetResponse_Then_ReturnsFizzBuzz()
+    public void GivenFizzBuzzGame_whenInputIs15_ThenGetResponseReturnsFizzBuzz()
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -59,7 +59,7 @@ public class FizzBuzzGameTests
     [Theory]
     [InlineData(0)]
     [InlineData(101)]
-    public void Given_InputIsOutsideRange1To100_When_GetResponse_Then_ThrowsArgumentOutOfRangeException(int input)
+    public void GivenFizzBuzzGame_whenInputIsOutsideRange1To100_ThenGetResponseThrowsArgumentOutOfRangeException(int input)
     {
         // Arrange
         var sut = new FizzBuzzGame();
@@ -76,7 +76,7 @@ public class FizzBuzzGameTests
     [InlineData(3, "Fizz")]
     [InlineData(5, "Buzz")]
     [InlineData(15, "FizzBuzz")]
-    public void Given_ValidInputCases_When_GetResponse_Then_ReturnsExpectedValue(int input, object expected)
+    public void GivenFizzBuzzGame_whenInputIsValid_ThenGetResponseReturnsExpectedValue(int input, object expected)
     {
         // Arrange
         var sut = new FizzBuzzGame();
